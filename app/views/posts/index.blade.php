@@ -1,7 +1,11 @@
 @extends('layouts.main')
 
 @section('content')
-	<a href="{{ URL::route('post.create') }}" class="btn btn-success moved">Stwórz nowy</a>
+<div class="moved">
+	<a href="{{ URL::route('post.create') }}" class="btn btn-success">Stwórz nowy</a>
+	<a href="{{ URL::route('admin') }}" class="btn btn-default">Wróć do panelu admina</a>
+</div>
+	
 	@if ($posts->count())
 		@foreach ($posts as $post)
 	    	

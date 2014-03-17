@@ -27,7 +27,6 @@
             <a href="{{ URL::route('user.GETlogin'); }}"> Zaloguj </a>
         </li>
       @else
-        <li><a href="{{ URL::route('user.create'); }}"> Nowy admin </a></li>
         <li><a href="{{ URL::route('logout'); }}"> Wyloguj się </a></li>
       @endif
       
