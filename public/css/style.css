@@ -1,0 +1,19 @@
+body { 
+	padding-top: 70px; 
+}
+
+.container{
+	position: relative;
+	margin-bottom: 55px;
+}
+
+footer{
+	text-align: center;
+	color: #606060;
+	background: #C0C0C0;
+	position: relative;
+}
+
+.moved{
+	margin-bottom: 20px;
+}
